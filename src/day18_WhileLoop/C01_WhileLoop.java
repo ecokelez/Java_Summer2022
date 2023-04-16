@@ -9,10 +9,10 @@ public class C01_WhileLoop {
         Kullanicinin hata yapmadigini farz edin.
          */
 
-        char ılkHarf= 'e';
+        char ilkHarf= 'e';
         char sonHarf='s';
 
-        char temp=ılkHarf;  // Ilk  harf degerını korumak ıcın , bozmamak ıcın bu degerı olusturduk
+        char temp=ilkHarf;  // Ilk  harf degerını korumak ıcın , bozmamak ıcın bu degerı olusturduk
 
         String buyult="";
 

@@ -19,11 +19,9 @@ public class C08_OrtakElemanlarıBul {
 
         List<String> ortakIsımler=new ArrayList<>();
 
-        for (String each1:arr1
-             ) {
+        for (String each1:arr1) {
 
-            for (String each2:arr2
-                 ) {
+            for (String each2:arr2) {
 
                 if (each1.equalsIgnoreCase(each2)){
                     ortakIsımler.add(each1);

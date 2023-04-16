@@ -9,17 +9,17 @@ public class C02_WhileLoop {
 
         int input=5432;
 
-        int bırlerbasamagı=0;
-        int rakamlarToplamı=0;
+        int birlerbasamagi =0;
+        int rakamlarToplami=0;
         int temp=input;
 
 
 
         while (temp>0){
-            bırlerbasamagı=temp%10;
-            rakamlarToplamı+=bırlerbasamagı;
+            birlerbasamagi =temp%10;
+            rakamlarToplami+= birlerbasamagi;
             temp/=10;
         }
-        System.out.println(input +" sayısının rakamlar toplamı :" + rakamlarToplamı);
+        System.out.println(input +" sayısının rakamlar toplamı :" + rakamlarToplami);
     }
 }

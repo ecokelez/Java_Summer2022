@@ -12,8 +12,7 @@ public class C06_ForeachLoop {
 
         // array'deki tum elemanlari iceleyelim, tek sayi olanlari list'e atayalim
 
-        for (int each:arr
-             ) {
+        for (int each:arr) {
 
             if (each%2==1){
                 liste.add(each);
